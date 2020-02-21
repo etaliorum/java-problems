@@ -14,7 +14,7 @@ public class Palindrome {
 
         while (fromBegin < fromEnd) {
             if(stringtochar[fromBegin] != stringtochar[fromEnd]){
-                ispalindrom = false;
+                return false;
             }
             fromBegin++;
             fromEnd--;
